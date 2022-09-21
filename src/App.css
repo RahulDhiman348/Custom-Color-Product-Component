@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+  height: 70vh;
+  border-radius: 13px;
+  box-shadow: 20px 40px 33px rgba(0,0,0,0.3);
+  padding: 2rem;
+  width: 75vw;
+  background-color: darkgrey;
+
+}
+
+.product-canvas {
+  width: 75vw;
+  height: 50vh;
+  background:white;
+  box-shadow:  10px 15px 15px 6px darkgray;
+  border-radius: 20px;
+  margin-bottom:20px
+
+}
+
+.colors {
+display:flex;
+flex-direction:row;
+}
+
+.colors div {
+  padding: 8px;
+}
